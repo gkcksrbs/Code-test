@@ -1,34 +1,20 @@
-N = int(input())
+# 다시 풀어보기
+import sys
 
-check = [[False for j in range(N)] for i in range(N)]
-lst = []
-def N_Queen(index):
-    tmp = []
-    if(index == N):
-        print(len(lst))
+N, Ans = int(sys.stdin.readline()), 0
+H, LD, RD = [False]*N, [False]*(2*N-1), [False]*(2*N-1)
+
+def n_queen(i):
+    global Ans
+    if i == N:
+        Ans += 1
         return
-    for i in range(N):
-        for j in range(N):
-            if check[i][j]:
-                continue
-            tmp.append(j)
-            for k in range(i, N):
-                check[i][k] = True
-            for k in range(N-1-i, N):
-                check[i][N-1-k] = True
-            for k in range(i, N):
-                check[k][j] = True
-            for k in range(N-j):
-                try:
-                    check[i+k][j+k] = True
-                except:
-                    continue
-            for k in range(i, j):
-                try:
-                    check[i+k][j-k] = True
-                except:
-                    continue
-            N_Queen(index+1)
-N_Queen(0)
-# print(check)
-# print(tmp)
+
+    for j in range(N):
+        if not (H[j] or LD[i+j] or RD [i-j+N-1]):
+            H[j] = LD[i+j] = RD[i-j+N-1] = True
+            n_queen(i+1)
+            H[j] = LD[i + j] = RD[i - j + N - 1] = False
+
+n_queen(0)
+print(Ans)
