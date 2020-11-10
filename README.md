@@ -45,12 +45,18 @@
 * [실전문제_2_위에서 아래로 p.178](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%A0%95%EB%A0%AC/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C_2_%EC%9C%84%EC%97%90%EC%84%9C%20%EC%95%84%EB%9E%98%EB%A1%9C.py)
 * [실전문제_3_성적이 낮은 순서로 학생 출력하기 p.180](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%A0%95%EB%A0%AC/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C_3_%EC%84%B1%EC%A0%81%EC%9D%B4%20%EB%82%AE%EC%9D%80%20%EC%88%9C%EC%84%9C%EB%A1%9C%20%ED%95%99%EC%83%9D%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.py)
 * [실전문제_4_두 배열의 원소 교체 p.182](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%A0%95%EB%A0%AC/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C_4_%EB%91%90%20%EB%B0%B0%EC%97%B4%EC%9D%98%20%EC%9B%90%EC%86%8C%20%EA%B5%90%EC%B2%B4.py)
-* []
+* [Q.23_국영수 p.359](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%A0%95%EB%A0%AC/Q.23_%EA%B5%AD%EC%98%81%EC%88%98.py)
+* [Q.24_안테나 p.360](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%A0%95%EB%A0%AC/Q.24_%EC%95%88%ED%85%8C%EB%82%98.py)
+* [Q.25_실패율 p.361](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%A0%95%EB%A0%AC/Q.25_%EC%8B%A4%ED%8C%A8%EC%9C%A8.py)
+* [Q.26_카드 정렬하기 p.363](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%A0%95%EB%A0%AC/Q.26_%EC%B9%B4%EB%93%9C%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.py)
 ### 5. 이진 탐색
 - **"탐색 범위를 반으로 좁혀가며 빠르게 탐색하는 알고리즘"**
 * [실전문제_2_부품찾기 p.197](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C_2_%EB%B6%80%ED%92%88%20%EC%B0%BE%EA%B8%B0.py)
 * [실전문제_3_떡볶이 떡 만들기 p.201](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C_3_%EB%96%A1%EB%B3%B6%EC%9D%B4%20%EB%96%A1%20%EB%A7%8C%EB%93%A4%EA%B8%B0.py)
-* []
+* [Q.27_정렬된 배열에서 특정 수의 개수 구하기 p.367](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89/Q.27_%EC%A0%95%EB%A0%AC%EB%90%9C%20%EB%B0%B0%EC%97%B4%EC%97%90%EC%84%9C%20%ED%8A%B9%EC%A0%95%20%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0.py)
+* [Q.28_고정점 찾기 p.368](https://github.com/gkcksrbs/Code-test/blob/master/%EC%BD%94%ED%85%8C%20with%20Python/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89/Q.28_%EA%B3%A0%EC%A0%95%EC%A0%90%20%EC%B0%BE%EA%B8%B0.py)
+* [Q.29_공유기 설치 p.369(미완)]
+* [Q.30_가사 검색 p.370(미완)]
 ### 6. 다이나믹 프로그래밍
 - **"한 번 계산한 문제는 다시 계산하지 않도록 하는 알고리즘"**
 * []
