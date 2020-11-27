@@ -14,5 +14,5 @@ while(True):
         break
 
 print(2**N - 1)
-print(Hanoi(N, 1, 3, 2))
+Hanoi(N, 1, 3, 2)
 
