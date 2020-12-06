@@ -1,10 +1,13 @@
-while(True):
-    N = int(input())
+# 정수 n 입력
+n = int(input())
 
-    if(1 <= N <= 10000):
-        break
+num = 666
+# 결과값 리스트
+result = []
 
-if(N == 1):
-    print("666")
-else:
-    print(str(N-1)+"666")
+while len(result) != n:
+    if '666' in str(num):
+        result.append(num)
+    num += 1
+# 결과값 출력
+print(result[n-1])
