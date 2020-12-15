@@ -11,7 +11,7 @@ for _ in range(n):
 # 집 그래프 리스트 정렬
 lst.sort()
 # 두 공유기 사이의 거리 최대, 최소
-start = lst[1] - lst[0]
+start = 1
 end = lst[-1] - lst[0]
 # 결과값
 result = 0
@@ -26,19 +26,20 @@ while start <= end:
     # 모든 집 탐색
     for i in range(1, n):
         # 두 집 사이의 거리가 중간점보다 크거나 같을 경우
-        if lst[i] - tmp >= mid:
+        if lst[i] >= tmp + mid:
             tmp = lst[i]
             # 공유기 개수 + 1
             count += 1
     # 총 설치한 공유기의 개수가 설치하려고 할 공유기의 개수보다 적을 경우
-    if count < c:
-        # 왼쪽 부분 탐색
-        end = mid - 1
-    # 총 설치한 공유기의 개수가 설치하려고 할 공유기의 개수보다 크거나 같을 경우
-    else:
+    if count >= c:
         # 오른쪽 부분 탐색
         start = mid + 1
         # 결과값 저장
         result = mid
+
+    # 총 설치한 공유기의 개수가 설치하려고 할 공유기의 개수보다 크거나 같을 경우
+    else:
+        # 왼쪽 부분 탐색
+        end = mid - 1
 # 결과값 출력
 print(result)
