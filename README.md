@@ -1,4 +1,4 @@
-# Code-test
+# Coding_Test_With_Python
 # Algorithm_with_python
 ## 1."이것이 취업을 위한 코딩 테스트다 with 파이썬"
 - 위 책으로 알고리즘 공부를 진행하면서 작성한 코드들을 정리 해놓은 곳입니다.

@@ -18,7 +18,7 @@ def check(new_lock):
     return True
 
 def solution(key, lock):
-    n = len(lock)
+    n = n
     m = len(key)
     new_lock = [[0]*(n*3) for _ in range(n*3)]
 
